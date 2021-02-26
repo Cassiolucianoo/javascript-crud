@@ -1,0 +1,42 @@
+{
+
+    "clientes":[{
+        "id":1,
+        "nome":"Cassio lcuiano da silva",
+        "cpf":"12345678911",
+         "telefone":"",
+         "end":"Rua aguas de março"
+    },
+    {
+        "id":2,
+        "nome":"Luciano da Silva",
+        "cpf":"12345678911",
+        "telefone":"",
+        "end":"Rua aguas de março"
+    },
+    {
+        "id":3,
+        "nome":"Hermes e Renato",
+        "cpf":"12345678911",
+        "telefone":"",
+        "end":"Neve na india"
+    },
+    {
+        "id":4,
+        "nome":"Mayara Priscila",
+        "cpf":"12345678911",
+        "telefone":"",
+        "end":"Amor de indio"
+    },
+    {
+        "id":5,
+        "nome":"Dj mortão",
+        "cpf":"12345678911",
+        "telefone":"",
+        "end":"Rua flor em flor"
+    }
+]
+
+
+}
+
