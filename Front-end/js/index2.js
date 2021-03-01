@@ -3,7 +3,7 @@ const listaClientes = document.querySelector('#Clientes')
 
 fetch(apiUrl)
   .then(resposta => resposta.json())
-  .then(clientesApi => clientesApi.forEach(cliente => 
+  .then(clientesApi => clientesApi.forEach(cliente =>
     listaClientes.innerHTML += `<li>
     nome: ${cliente.nome} 
     cpf: ${cliente.cpf} 
