@@ -4,4 +4,5 @@ Oque usei:
 JS + html
 
 # Objetivo
-Listando com fetch apiUrl
+-Listando com fetch apiUrl
+-Cadastrando em lista usando fetch

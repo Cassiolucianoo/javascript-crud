@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+   
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center;">Autenticação</h1>
+      <div id="message"></div>
+      <form id="form" autocomplete="off">
+        <div class="form-group">
+          <input
+            type="text"
+            id="username"
+            placeholder="username"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            id="password"
+            placeholder="password"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+            <button class="btn btn-danger">SignIn</button>
+        </div>
+      </form>
+      <div id="Login"></div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/login.js"></script>
+</html>

@@ -7,12 +7,13 @@
       "endereco": "rua aguas de fevereiro",
       "id": 1
     },
-    {
-      "nome": "luciano ",
-      "cpf": "37865541908",
-      "telefone": "11977460055",
-      "endereco": "rua aguas de maio",
-      "id": 2
-    }
+      {
+        "nome": "luciano ",
+        "cpf": "37865541908",
+        "telefone": "11977460055",
+        "endereco": "rua aguas de maio",
+        "id": 2
+      }    
+    
   ]
 }
