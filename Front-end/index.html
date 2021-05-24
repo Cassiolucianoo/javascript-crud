@@ -6,6 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <title>Listando pessoas</title>
 </head>
@@ -13,10 +16,40 @@
 
 <body>
   <h1> Lista de Cleintes</h1>
-  <ul id="Clientes"></ul>
+ 
+
+
+
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Numero</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Cpf</th>
+        <th scope="col">Tel</th>
+        <th scope="col">End</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row " id="Clientes"></th>
+        <td id="Nomes" ></td>
+        <td id="CPF"></td>
+        <td id= Tel></td>
+        <td id= End></td>
+      </tr>
+      
+    
+    </tbody>
+  </table>
+
+
+
+
 
   <!-- Mudando para index1.js vai apresentar o código fixo-->
-  <script src="js/index2.js"></script>
+  <script src="js/listando.js"></script>
 
 </body>
 
